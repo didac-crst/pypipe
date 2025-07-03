@@ -14,14 +14,14 @@ A lightweight and intuitive library for building functional data processing pipe
 - **Readable & Intuitive:** Chain functions with the `|` operator for a natural, left-to-right data flow.
 - **Reusable Components:** Each function (`PipeStep`) and every complete workflow (`Pipeline`) is a reusable object.
 - **Self-Documenting:** Pipelines automatically generate docstrings from their components, making them easy to inspect with `help()`.
-- **Flexible:** Works with any function, including `lambda`s, and can be used for any data type, from simple numbers to complex pandas DataFrames.
+- **Flexible:** Works with any function, including `lambdas`, and can be used for any data type, from simple numbers to complex pandas DataFrames.
 - **Lightweight:** A single, dependency-free file that you can drop into any project.
 
 ---
 
 ## Installation
 
-This is a single-file library. To use it, simply copy the `pypipe.py` file (containing the `PipeStep`, `Pipeline`, and `step` definitions) into your project directory and import from it:
+To use it, simply import the `pypipe` module (containing the `PipeStep`, `Pipeline`, and `step` definitions) into your project:
 
 ```python
 from pypipe import PipeStep, Pipeline, step
