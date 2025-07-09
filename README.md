@@ -190,6 +190,21 @@ print(data_pipeline)
 
 ---
 
+## Running the Test Suite
+
+PyPipe ships with a lightweight pytest suite.  
+If you’ve cloned the repo and want to verify everything works locally:
+
+```bash
+# Install library + dev dependencies (pytest, etc.)
+poetry install --with dev
+
+# Execute all tests
+poetry run pytest -q
+```
+
+---
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or find a bug, please feel free to open an issue or submit a pull request.
