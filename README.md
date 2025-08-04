@@ -8,8 +8,12 @@
 > It started with a small script. Just a few transformations.  
 > Then it grew.
 >
-> At first, it was just one nested function call:  
-> `result = square(add_3(multiply_by_10(5)))`  
+> At first, it was just one nested function call:
+> 
+> ```python
+> result = square(add_3(multiply_by_10(5)))
+> ```
+>
 > Okay, not ideal — but manageable.
 >
 > Then the real world showed up.  
